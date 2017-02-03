@@ -1,0 +1,27 @@
+---
+title: "Calificaciones"
+author: "Amira Sagaon"
+date: "3 de febrero de 2017"
+output: html_document
+---
+
+## Primer Semestre
+#### (Primavera 2016)
+
+* Programación Actuarial l   7
+* Intr a la Profesión Actuarial   8
+* DHPC   9
+* Conceptos de Calculo   7
+* Matemáticas Básicas   6
+* Problemas de Mat. Básicas   6
+
+## Segundo Semestre
+#### (Otoño 2016)
+* Programación Actuarial ll   6
+* Teoría del interes l   6
+*  Microeconomía   6
+* Lengua Extranjera l   10
+* Lengua Extranjera ll   10
+* Lengua Extranjera lll   10
+* Lengua Extranjera lV   10
+* Geometría Analítica   6
