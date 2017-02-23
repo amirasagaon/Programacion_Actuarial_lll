@@ -1,0 +1,109 @@
+library(datasets)
+airquality
+?rnorm
+help.search("rnorm")
+args("rnorm")
+
+#Clase de 02/16/17
+x <- 1
+print(x)
+#Ctrl+r para evitar run. / ctrl+l para borrar texto de la consola. / ctrl + enter para correr todo el código.
+x
+msg <- "hola"
+msg
+X <- #Esta expresión esta incompleta
+print("X")  
+#Una variable comienza con letra y no contiene espacios
+msg <- "hola
+#Con la escobita arriba de "environment" puedo borrar las variables
+#[1] = un vector o un conjunto de valores con un solo elemento
+y <- 1:20
+y
+y1 <- 1:50
+y1
+# [] mismo objeto posicion tal
+#scape para cancelar la instrucción
+#character, complex, numeric, integer, boolean
+a <- 1
+b <- 1L
+class(a)
+class(b)
+#1/0 esta definido (inf), 0/0 no (NaN: not a number)
+attributes(y)
+
+
+
+#Creacion de vectores,con la funcion vector.
+vector("integer",5)
+mi_vector <- vector("integer",5)
+#con la funcion c
+z <- c(0.5,0.6)
+z1 <- c(TRUE,FALSE)
+z3 <- c(T,F)
+z4 <- c("a","b","c")
+z5 <- 9:29
+z6 <- c(2-1i, 2-5i, 2.14+1.186i)
+z7 <- c(1.7,"a")
+z8 <- c(TRUE,2)
+z9 <- c("a",TRUE)
+q <- 0:6
+as.numeric(z10)
+w <- c(0:6,0.5)
+as.numeric(q)
+as.logical(w)
+as.character(w)
+x <- c("a", "b", "c")
+as.numeric(x)
+as.logical(x)
+as.complex(x)
+y <- c(3.14,4.5,6.5,2.25,7.7,9.8)
+as.integer(y)
+X <- list(1,"a",TRUE,1+4i)
+X
+x1 <- list(1,"a",TRUE,1+4i,1:100)
+x1
+m <- matrix(nrow=2,ncol=3)
+m
+?Matrix
+dim(m)
+attributes(m)
+m <- matrix(nrow=2,ncol=3)
+attributes(matrix(1:100,10,10))
+m1 <- matrix(1:6,2,3)
+m1
+m2 <- matrix(1:6,2,3, byrow="true")
+m2
+m3 <- 1:10
+m3
+dim(m3) <- c(2,5)}
+m3
+dim(m3) <- c(5,2)
+m3
+x <- 1:3
+y <- 10:12
+cbind(x,y)
+rbind(x,y)
+
+x <- factor(c("yes","yes","no","yes","no"))
+x
+table(x)
+unclass(x)
+
+x11 <- factor(c("yes","yes","yes","no","yes","no"), levels = c("yes","no"))
+x11
+x <- c(1,2,NA,10,3)
+is.na(x)
+is.nan(x)
+
+x <- data.frame(foo=1:4, bar=c(T,T,F,T))
+ncol(x)
+nrow(x)
+names(x)
+y <- 1:6
+dim(y) <- c(2,3)
+y
+names(y)
+
+names(y) <- c("foo","bar","biz")
+names(y)
+y
